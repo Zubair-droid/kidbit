@@ -1,11 +1,11 @@
 # Getting Started with Create React App
 
 
-## Preview of the project in mobile and desktop resolution
-<img src = "/src/images/mobile.jpg" alt = ""/>
-
+## Preview of the UI in mobile and desktop resolution
 
 <img src = "/src/images/web.png" alt = ""/>
+
+<img src = "/src/images/mobile.png" alt = ""/>
 
 
 ### Deployed Site: <a href = 'https://romantic-gates-68e2cf.netlify.app/'> Dive here </a>
