@@ -1,5 +1,15 @@
 # Getting Started with Create React App
 
+
+## Preview of the project in mobile and desktop resolution
+<img src = "/src/images/mobile.jpg" alt = ""/>
+
+
+<img src = "/src/images/web.png" alt = ""/>
+
+
+### Deployed Site: <a href = 'https://romantic-gates-68e2cf.netlify.app/'> Dive here </a>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
