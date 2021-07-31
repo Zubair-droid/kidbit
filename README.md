@@ -5,7 +5,7 @@
 
 <img src = "/src/images/web.png" alt = ""/>
 
-<img src = "/src/images/mobile.png" alt = ""/>
+<img src = "/src/images/mobile.JPG" alt = ""/>
 
 
 ### Deployed Site: <a href = 'https://romantic-gates-68e2cf.netlify.app/'> Dive here </a>
