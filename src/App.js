@@ -285,7 +285,7 @@ class Button extends React.Component {
                 class="t-input btn btn-outline-secondary"
 
                
-                name= "time"
+                
                 value = '5-6'
                 placeholder = "5-6"
 
