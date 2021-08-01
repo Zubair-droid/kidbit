@@ -231,7 +231,7 @@ class Button extends React.Component {
                 class="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-                value="1-2"
+                value={value.time}
                 onClick={handleChange}
               >
               
@@ -247,7 +247,7 @@ class Button extends React.Component {
                 class="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-                value="3-4"
+                value={value.time}
                 onClick={handleChange}
               >
                
@@ -263,7 +263,7 @@ class Button extends React.Component {
                 class="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-                value="5-6"
+                value={value.time}
                 onClick={handleChange}
               >
                 
@@ -276,7 +276,7 @@ class Button extends React.Component {
                 class="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-                value="7-8"
+                value={value.time}
                 onClick={handleChange}
               >
                 7-8
