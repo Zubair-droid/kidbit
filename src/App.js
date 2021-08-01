@@ -19,6 +19,8 @@ function App() {
     time:""
   });
   const [dropDownValue,setDropDownValue]=useState("")
+  
+
 
   const handleDropdown =(e)=>
   {
@@ -26,12 +28,18 @@ function App() {
   }
   const handleChange=(e)=>
   {
-
+    e.preventDefault();
     setValue({
       ...value,
-      [e.target.name]:e.target.value, 
+      [e.target.name]:e.target.value,
+      
+      
     })
   }
+
+  
+
+
 const formPost=(e)=>
 
 {
@@ -76,13 +84,17 @@ class Button extends React.Component {
   handleClick(e){
     e.preventDefault();
     this.setState({
-      button:!this.state.button
-    })
+      button:!this.state.button,
+     })
+
   }
+
+  
+
   render(){
     return (
     <div className="container">
-      <button className={this.state.button ? "buttonTrue": "buttonFalse"} onClick={this.handleClick}> <i className="far fa-smile"></i> {this.props.value}</button>  
+      <button className={this.state.button ? "buttonTrue": "buttonFalse"} onClick={this.handleClick}> {this.props.placeholder}</button>  
     </div>
     )
   }
@@ -155,6 +167,7 @@ class Button extends React.Component {
             <input
               className="input"
               placeholder="Enter your Address"
+              
               value={value.address}
               name="address"
               onChange={handleChange}
@@ -224,17 +237,18 @@ class Button extends React.Component {
                 display: "flex",
               }}
             >
-              <Button
+              <Button 
                 id="btn"
                  
                 class="t-input btn btn-outline-secondary"
-                type="button"
+                type="input"
                 name="time"
                 value="1-2"
+                placeholder = "1-2"
                 onClick={handleChange}
               >
+               
               
-                1-2 
                 
               </Button> 
 
@@ -242,44 +256,54 @@ class Button extends React.Component {
               
               <Button
                 id="btn"
-                style = {{borderColor: '1px solid #0000'}}
-                class="t-input btn btn-outline-secondary"
+                className="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-                value="3-4"
+                value='3-4'
+                placeholder = "3-4"
                 onClick={handleChange}
               >
-               
-                3-4
-               
+              
               </Button>
+               
+              
+              
+              
               
               <Button
-                
+              
                 
                 id="btn3"
                 
                 class="t-input btn btn-outline-secondary"
-                type="button"
-                name="time"
-                value="5-6"
+                type="input"
+                name= "time"
+                value = '5-6'
+                placeholder = "5-6"
                 onClick={handleChange}
               >
                 
-                5-6
+             
+               
               </Button>
               
+
               <Button
-                id="btn"
                 
+                
+                id="btn"
                 class="t-input btn btn-outline-secondary"
-                type="button"
+                type = "text"
                 name="time"
-                value="7-8"
+                value = '7-8'
+                placeholder = "7-8"
                 onClick={handleChange}
-              >
-                7-8
-              </Button> 
+                 />
+               
+
+               
+              
+               
            
             </div> 
             <label className="label"> Where did you hear about us ? </label> 
