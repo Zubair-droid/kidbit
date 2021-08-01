@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 
-## Preview of the UI in mobile and desktop resolution
+## Preview of the UI in mobile and desktop resolutions
 
 <img src = "/src/images/web.png" alt = ""/>
 
