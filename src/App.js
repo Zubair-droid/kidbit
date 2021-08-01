@@ -204,6 +204,7 @@ class Button extends React.Component {
                 style={{
                   width: "80%",
                 }}
+                type="number"
                 className="input"
                 placeholder=""
                 value={value.number}
