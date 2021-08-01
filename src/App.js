@@ -242,15 +242,11 @@ class Button extends React.Component {
                 id="btn"
                  
                 class="t-input btn btn-outline-secondary"
-                type="input"
+                type="button"
                 name="time"
-<<<<<<< HEAD
+
                 value="1-2"
                 placeholder = "1-2"
-=======
-                time = "1-2"
-                value={value.time}
->>>>>>> 851850e06196e38a0f2de60d5f867daf70f9d4d6
                 onClick={handleChange}
               >
                
@@ -265,13 +261,13 @@ class Button extends React.Component {
                 className="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-<<<<<<< HEAD
+
                 value='3-4'
                 placeholder = "3-4"
-=======
-                time = "3-4"
-                value= {value.time}
->>>>>>> 851850e06196e38a0f2de60d5f867daf70f9d4d6
+
+                
+                
+
                 onClick={handleChange}
               >
               
@@ -287,17 +283,17 @@ class Button extends React.Component {
                 id="btn3"
                 
                 class="t-input btn btn-outline-secondary"
-<<<<<<< HEAD
-                type="input"
+
+               
                 name= "time"
                 value = '5-6'
                 placeholder = "5-6"
-=======
+
                 type="button"
                 name="time"
-                time = "5-6"
-                value= {value.time}
->>>>>>> 851850e06196e38a0f2de60d5f867daf70f9d4d6
+               
+                
+
                 onClick={handleChange}
               >
                 
@@ -311,15 +307,15 @@ class Button extends React.Component {
                 
                 id="btn"
                 class="t-input btn btn-outline-secondary"
-                type = "text"
+                type = "button"
                 name="time"
-<<<<<<< HEAD
+
                 value = '7-8'
                 placeholder = "7-8"
-=======
-                time = "7-8"
-                value = {value.time}
->>>>>>> 851850e06196e38a0f2de60d5f867daf70f9d4d6
+
+               
+               
+
                 onClick={handleChange}
                  />
                
