@@ -21,7 +21,6 @@ function App() {
   const [dropDownValue,setDropDownValue]=useState("")
   
 
-
   const handleDropdown =(e)=>
   {
     setDropDownValue(e.target.value)
@@ -37,11 +36,8 @@ function App() {
     })
   }
 
-  
-
 
 const formPost=(e)=>
-
 {
   e.preventDefault();
   var data = qs.stringify({
@@ -61,15 +57,12 @@ const formPost=(e)=>
   };
   axios(config)
   .then(function (response) {
-
     console.log(JSON.stringify(response.data));
-
     console.log("done");
   })
   .catch(function (error) {
     console.log(error);
   });
-  
 }
 
 class Button extends React.Component {
@@ -86,10 +79,7 @@ class Button extends React.Component {
     this.setState({
       button:!this.state.button,
      })
-
-  }
-
-  
+    }
 
   render(){
     return (
@@ -100,8 +90,6 @@ class Button extends React.Component {
   }
   
 }
-
-  
 
   return (
     <div className="App">
@@ -124,7 +112,6 @@ class Button extends React.Component {
                 fontSize: "45px",
               }}
             >
-               
               Get a Free Demo. 
             </h1> 
            
@@ -240,90 +227,42 @@ class Button extends React.Component {
             >
               <Button 
                 id="btn"
-                 
                 class="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-
                 value="1-2"
                 placeholder = "1-2"
                 onClick={handleChange}
-              >
-               
-              
-                
-              </Button> 
-
-             
+              />
               
               <Button
                 id="btn"
                 className="t-input btn btn-outline-secondary"
                 type="button"
                 name="time"
-
                 value='3-4'
                 placeholder = "3-4"
-
-                
-                
-
                 onClick={handleChange}
-              >
-              
-              </Button>
-               
-              
-              
-              
+              />
               
               <Button
-              
-                
                 id="btn3"
-                
                 class="t-input btn btn-outline-secondary"
-
-               
-                
                 value = '5-6'
                 placeholder = "5-6"
-
                 type="button"
                 name="time"
-               
-                
-
                 onClick={handleChange}
-              >
-                
-             
-               
-              </Button>
-              
-
-              <Button
-                
-                
+              />
+              <Button     
                 id="btn"
                 class="t-input btn btn-outline-secondary"
                 type = "button"
                 name="time"
-
                 value = '7-8'
                 placeholder = "7-8"
-
-               
-               
-
                 onClick={handleChange}
                  />
-               
-
-               
-              
-               
-           
             </div> 
             <label className="label"> Where did you hear about us ? </label> 
             
